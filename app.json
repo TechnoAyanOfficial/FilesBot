@@ -6,8 +6,8 @@
         "share",
         "files"
     ],
-    "website": "https://telesco.pe/SpEcHlDe",
-    "repository": "https://github.com/SpEcHiDe/FilesBot",
+    "website": "https://telegram.me/CyberBoyAyush",
+    "repository": "https://github.com/CyberBoyAyush/FilesBot",
     "success_url": "/",
     "env": {
         "TG_BOT_TOKEN": {
