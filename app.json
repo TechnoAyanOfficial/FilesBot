@@ -1,15 +1,13 @@
 {
-    "name": "Files Bot",
-    "description": "this app does one little thing, and does it well.",
-    "keywords": [
+  "name": "Files Bot",
+  "description": "this app does one little thing, and does it well.",
+  "keywords": [
         "productivity",
         "share",
         "files"
-    ],
-    "website": "https://telegram.me/CyberBoyAyush",
-    "repository": "https://github.com/CyberBoyAyush/FilesBot",
-    "success_url": "/",
-    "env": {
+  ],
+  "repository": "https://github.com/DevcodeOfficial/UserByte",
+  "env": {
         "TG_BOT_TOKEN": {
             "description": "your Telegram Bot Token, from @BotFather"
         },
@@ -22,13 +20,9 @@
         "TG_AUTH_USERS": {
             "description": "Telegram Users, who can get links using the RoBot",
             "value": "ALL"
-        }
-    },
-    "formation": {
-        "web": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-    "image": "heroku/php"
+    }
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
 }
